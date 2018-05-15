@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header,.nav_index,#nav_banner{width: 1080px;margin: 0 auto;}
+
+
+/* 顶部 */
+#head{width:100%;height: 30px;background: #333; }
+
+.header{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.header a:hover{
+    color: #fff;
+}
+.head_nav{
+    float: left;
+}
+.head_nav li{
+    float: left;
+    
+}
+.head_nav li a{
+    color: #ccc;
+    height: 12px;
+    line-height: 12px;
+    border-right: 1px solid #cbcbcb;
+    padding: 0 18px;
+}
+
+.head_nav .border0 a{
+    border-right: none;
+}
+
+.head_user{
+    float: right;
+}
+.head_user>li{
+    float: left;
+    color: #cdcdcd;
+    vertical-align: middle;
+}
+.head_user>li a {
+    color: #ccc;
+    height: 12px;
+    line-height: 12px;
+    border-right: 1px solid #cbcbcb;
+    padding: 0 18px;
+}
+.head_user>li .user_login{
+    padding: 0 0 ;
+    border-right: none;
+}
+.msg_center{
+    background: url(http://static.biyao.com/pc/common/img/master/msgcenter.png?v=biyao_7dcad45) no-repeat 2px 9px;
+}
+.head_user .msg_center {
+    margin-left: 18px;
+}
+.head_user .msg_center{
+    padding-left: 10px;
+}
+.head_user .kf_fuwu a{
+    border-right: none;
+}
+.user_shopcar{
+
+    background: #523669 url(http://static2.biyao.com/pc/common/img/master/shopCar.png?v=biyao_450e7fc) no-repeat 15px 7px;
+}
+.head_user .user_shopcar a{
+    padding-left: 38px;
+    border-right: none;
+    display: inline-block;  
+}
+.head_user  span{
+    width: 20px;
+    display: inline-block;
+} 
+.kf_fuwu i{
+    display: inline-block;
+    width: 9px;
+    height: 4px;
+    margin-left: 10px;
+    background: url(http://static1.biyao.com/pc/common/img/master/comSprite.png?v=biyao_d192a16) 0 -102px no-repeat;
+    vertical-align: middle;
+}
+/* 导航 */
+#nav{
+    width: 100%;
+    height: 145px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    z-index: 110;
+}
+.nav_index{
+    height: 145px;
+    position: relative;
+}
+.nav_index a:hover{
+    color: #f7b200;
+}
+.logo{
+    width: 239px;
+    height: 98px;
+    background: url(http://static3.biyao.com/pc/common/img/master/logo.png?v=biyao_e06b35d) 0 center no-repeat; 
+    float: left;
+}
+.nav_search{
+    position: relative;
+    float: right;
+    margin-top: 30px;
+}
+.nav_search p {
+    width: 538px;
+    height: 38px;
+    position: relative;
+    z-index: 2;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+}
+.nav_search input{
+    width: 488px;
+    height: 38px;
+    padding-left: 10px;
+    border: 0;
+    line-height: 38px;
+    color: #333;
+    font-size: 16px;
+    border-radius: 3px;
+    vertical-align: middle;
+    float: left;
+}
+#searchBtn{
+    display:inline-block;
+    width: 37px;
+    height: 38px;
+    border-left: 1px solid #ccc;
+    vertical-align: middle;
+    background: url(http://static2.biyao.com/pc/common/img/master/search.png?v=biyao_2e92562) center center no-repeat;
+    cursor: pointer;
+    float: left;
+}
+.nav_search ul{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 35px;
+    padding: 0;
+    margin-bottom: 40px;  
+
+}
+.nav_search ul li {
+    float: left;
+    margin-right: 20px;
+    height: 35px;
+    line-height: 35px;
+    
+}
+.nav_search ul li a {
+    color: gray;
+}
+.nav_tab{
+    position: absolute;
+    bottom: 0;
+    left: 0;  
+}
+.nav_tab span{
+    width: 180px;
+    height: 40px;
+    padding-left: 20px;
+    line-height: 40px;
+    font-size: 16px;
+    background: #f2f2f2;
+    color: #333;
+    float: left;
+
+}
+.nav_tab span i{
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    margin-right: 10px;
+    background: url(http://static3.biyao.com/pc/common/img/master/nav-list.png?v=biyao_a50ea2d) no-repeat;
+}
+.nav_tab ul{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.nav_tab ul li {
+    float: left;
+    height: 16px;
+    border-right: 1px solid #ccc;
+    line-height: 16px;
+    cursor: pointer;
+    padding: 0 30px;
+    display: inline-block; 
+    margin-top:12px; 
+}
+.nav_tab ul li a{
+    color: #333;
+    font-size: 16px; 
+}
+
+/* 导航和轮播图 */
+#nav_banner{
+    width: 1080px;
+    height: 360px;
+    position: absolute;
+    background: #fff;
+    top: 175px;
+    margin: 10px auto 0px;
+    left: 50%;
+    margin-left: -540px;
+}
+
+/* 导航 */
+.navlist{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    height: 320px;
+    padding: 20px 0;
+    background: url(http://static1.biyao.com/pc/common/img/master/category-back.png?v=biyao_c27c88e);
+}
+.nav-main{
+    width: 200px;
+}
+.nav-main>p{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.nav-main>p a{
+    font-size: 14px;
+    color: #fff;
+}
+.nav-main>p span{
+    margin: 0 5px;
+    font-size: 16px;
+    color: #fff;
+}
+.nav-main>ul{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+    min-height: 331px;
+    width: 700px;
+    padding: 15px 0;
+    background: #fff;
+    box-shadow: 1px 0 15px 5px rgba(0,0,0,.05);
+}
+.nav-sub>a{
+    display: inline-block;
+    width: 62px;
+    margin: -2px 10px 0;
+    line-height: 20px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+}
+.nav-sub ul{
+    float: right;
+    width: 567px;
+    margin: 0 20px 0 16px;
+    padding-top: 15px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.nav-item{
+    float: left;
+    margin: 0 20px 15px 0;
+    line-height: 20px;
+}
+
+/* 轮播图 */
+.gp6-banner-container{
+    width: 1080px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.gp6-banner-wrapper{
+    width: 1080px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+}
+.gp6-banner-item{
+    width: 1080px;
+    height: 360px;
+    position : absolute;
+    text-align: center;
+    line-height: 360px;
+}
+.gp6-banner-item img{
+    width:1080px;
+    height: 360px;
+}
+.gp6-banner-item.gp6-active{
+    z-index: 2;
+}
+.gp6-banner-pagination{
+    width: 880px;
+    height:20px;
+    position: absolute;
+    z-index: 99;
+    bottom: 20px;
+    left:200px;
+    text-align: center;
+}
+
+.gp6-banner-pagination span{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid #523669;
+    margin: 0 6px;
+}
+.gp6-banner-pagination span.gp6-active{
+    background: #f7b200;
+    border:2px solid #f7b200;
+}
+.gp6-banner-pagination span:first-child{
+    margin-left: 0; 
+}
+
+.gp6-button-prev,.gp6-button-next{
+    height: 48px;
+    width: 48px;
+    background:red;
+    position: absolute;
+    z-index: 999;
+    margin-top: -24px;
+    top: 50%;
+    border-radius: 2px;
+    background: url(http://static2.biyao.com/pc/common/img/master/slider-left.png?v=biyao_0218904) no-repeat;
+    cursor: pointer;
+}
+
+.gp6-button-prev{
+    left: 220px;
+   
+}
+.gp6-button-next{
+    right: 20px;
+    background: url(http://static3.biyao.com/pc/common/img/master/slider-right.png?v=biyao_f339009) no-repeat;
+}
+
+
+
